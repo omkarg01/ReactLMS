@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
+import ChildComponent from './components/ChildComponent';
 
 const App = () => {
+
+  const message = "Hello from Parent Component"
 
   return (
     <div>
       This is App Component
-      <Header></Header>
+      <ChildComponent greeting={message}></ChildComponent>
     </div>
   )
 }
