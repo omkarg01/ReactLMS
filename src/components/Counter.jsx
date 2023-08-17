@@ -8,6 +8,7 @@ const Counter = () => {
     // count += 1;
     setCount(count + 1)
     console.log("count :", count);
+    document.title = `Count : ${count}`
   }
   return (
     <div>
