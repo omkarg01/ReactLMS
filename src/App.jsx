@@ -1,13 +1,12 @@
 import React from 'react';
-import TodoApp from './components/FetchData';
-import DropdownComponent from './components/DropDownComponent';
+import UserProfile from './components/UserProfile';
+import ListComponent from './components/ListComponent';
 
 const App = () => {
 
   return (
     <div> 
-      {/* <TodoApp></TodoApp> */}
-      <DropdownComponent></DropdownComponent>
+      <ListComponent></ListComponent>
     </div>
   )
 }
