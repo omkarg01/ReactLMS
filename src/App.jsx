@@ -2,4 +2,11 @@ import React from 'react';
 
 const App = () => {
 
-export default App;
+  return (
+    <div>
+      This is App Component
+    </div>
+  )
+}
+
+export default App
