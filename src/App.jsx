@@ -1,14 +1,7 @@
-import React from 'react';
-import UserProfile from './components/UserProfile';
-import ListComponent from './components/ListComponent';
+import React from "react";
 
 const App = () => {
+  return <div>This is APP Component</div>;
+};
 
-  return (
-    <div> 
-      <ListComponent></ListComponent>
-    </div>
-  )
-}
-
-export default App
+export default App;
