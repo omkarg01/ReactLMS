@@ -15,11 +15,4 @@ const App = () => {
   return <RouterProvider router={router} />;
 };
 
-  return (
-    <div>
-      This is App Component
-    </div>
-  )
-}
-
 export default App
